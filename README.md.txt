@@ -5,6 +5,6 @@ Follow the tutorials to understand how you can
 commit - submitting your work
 revert - taking a previous version of your work in case you need to
 fork   - make changes to a projects. When you 'save' it to the repository, you will create a new version
-check-out (I currently do not know the Github lingo for this term. So, I'm using the SVN term)
+pull   - make a copy of the master version to your computer.
 
-ALWAYS put a meaning description when you are commiting. Explain in 1 sentence what changes you made since the version you checked out.
+ALWAYS put a meaning description when you are commiting. Explain in 1 sentence what changes you made since the version you pulled.
