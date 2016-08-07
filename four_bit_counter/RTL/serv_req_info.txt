@@ -1,0 +1,33 @@
+<internal_error>
+<sub_system>ERR</sub_system>
+<callstack>
+	 0xeb7fede3: ccl_err + 0xade3 (_ZN15ERR_STACKWALKER15get_stack_traceEPPKviiPv + 0x8f)
+	 0xeb8016f6: ccl_err + 0xd6f6 (_Z14err_terminatorv + 0x62)
+	 0xeb772a0e: dinkum_alt + 0x17a0e (_ZSt9terminatev + 0x1e)
+	 0xeac68c0a: stdc++.so.6 + 0xb4c0a
+	 0xeb7856f3: dinkum_alt + 0x2a6f3 (_ZNK11_Dinkum_std12_String_base5_XranEv + 0x1a3)
+	 0xeb88ed1b: ccl_gen + 0x3bd1b (_ZN11_Dinkum_std12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignERKS5_jj + 0x3b)
+	 0xeb873d34: ccl_gen + 0x20d34 (_ZN16GEN_MACHINE_INFO11get_os_nameEPN11_Dinkum_std12basic_stringIcNS0_11char_traitsIcEE17MEM_STL_ALLOCATORIcEEE + 0xaa2)
+	 0xf30a6f5c: comp_qcu + 0x2bf5c (_Z27qcu_report_operating_systemP13QCU_FRAMEWORK + 0x43c)
+	 0xf30e7af9: comp_qcu + 0x6caf9 (_Z21qcu_add_common_panelsP13QCU_FRAMEWORKP22ACF_FILE_CATEGORY_ENUMPN3ACF12REPORT_TYPES4TYPEEbb + 0xd5)
+	  0x806a7ce: quartus_map + 0x227ce (_ZN14QSYN_FRAMEWORK13write_reportsEbPKc + 0xfe)
+	 0xf305d41c: comp_qexe + 0xd41c (_Z14qexe_do_normalP14QEXE_FRAMEWORKPKc + 0x210)
+	 0xf3067cbd: comp_qexe + 0x17cbd (_Z18qexe_standard_mainP14QEXE_FRAMEWORKPPK22QEXE_OPTION_DEFINITIONiPPKc + 0x437)
+	  0x80651fb: quartus_map + 0x1d1fb (_Z9qsyn_mainiPPKc + 0x9b)
+	 0xeba4e148: ccl_msg + 0x1e148 (_Z15msg_main_threadPv + 0x18)
+	 0xeb7bd8e8: ccl_thr + 0x58e8 (thr_final_wrapper + 0xe)
+	 0xeba4f872: ccl_msg + 0x1f872 (_Z18msg_thread_wrapperPFPvS_ES_ + 0x72)
+	  0x80ab3a0: quartus_map + 0x633a0 (_Z18mem_thread_wrapperPFPvS_ES_ + 0xd0)
+	 0xeb7fdb20: ccl_err + 0x9b20 (_Z18err_thread_wrapperPFPvS_ES_ + 0x2a)
+	 0xeb7bd91b: ccl_thr + 0x591b (thr_thread_wrapper + 0x2f)
+	 0xeba61e11: ccl_msg + 0x31e11 (_Z12msg_exe_mainiPPKcPFiiS1_E + 0x97)
+	  0x805b39f: quartus_map + 0x1339f (main + 0x4f)
+	 0xea9c3943: c.so.6 + 0x19943 (__libc_start_main + 0xf3)
+	 0xf7735fd4: ld-linux.so.2 + 0x1ffd4
+	 0xec830019: atm_astr + 0x5fe019 (_ZN34ASTR_CGA_ENUM_DATA_ENUM_TRANSLATOR19m_user_string_tableE + 0x3339)
+</callstack>
+<error>*** Fatal Error: Unhandled Exception</error>
+<date>Sun Aug  7 09:56:24 2016
+</date>
+<version>Version 10.1 Build 153 11/29/2010 SJ Web Edition</version>
+</internal_error>
