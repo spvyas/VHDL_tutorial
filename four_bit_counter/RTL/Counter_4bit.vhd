@@ -59,7 +59,7 @@ rst_dr <= debounce_reg_rst(2);
 hlt_dr <= debounce_reg_hlt(2);
 
 
-process(clk,pulse,rst_dr,internal_rst)
+process(clk,pulse,hlt_dr,rst_dr,internal_rst) -- hlt_dr is added 
 begin
 if(rising_edge(clk))then
   if(internal_rst='1' or rst_dr='1')then
